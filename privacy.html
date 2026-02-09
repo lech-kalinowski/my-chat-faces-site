@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — My Chat Faces</title>
+    <link rel="icon" type="image/png" href="icon.png" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.7;
+        color: #333;
+        background: #fafafa;
+        padding: 2rem 1rem;
+      }
+      .container {
+        max-width: 720px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 12px;
+        padding: 2.5rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      }
+      h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+      .updated { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
+      h2 { font-size: 1.2rem; margin-top: 1.8rem; margin-bottom: 0.5rem; }
+      p, ul { margin-bottom: 1rem; }
+      ul { padding-left: 1.5rem; }
+      li { margin-bottom: 0.3rem; }
+      a { color: #6c63ff; }
+      .back { display: inline-block; margin-bottom: 1.5rem; text-decoration: none; font-size: 0.95rem; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="index.html" class="back">&larr; Back to My Chat Faces</a>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: February 9, 2026</p>
+
+      <h2>Overview</h2>
+      <p>My Chat Faces is a Chrome extension that lets you set custom background images on AI chat websites (ChatGPT, Claude, and Gemini). Your privacy is important to us — the extension is designed to work entirely offline with no data collection.</p>
+
+      <h2>Data Collection</h2>
+      <p>My Chat Faces does <strong>not</strong> collect, store, or transmit any personal data. Specifically:</p>
+      <ul>
+        <li>No analytics or tracking scripts are used</li>
+        <li>No data is sent to any external server</li>
+        <li>No cookies are set</li>
+        <li>No browsing history is accessed or recorded</li>
+        <li>No user content from chat pages is read or stored</li>
+      </ul>
+
+      <h2>Local Storage</h2>
+      <p>The extension uses Chrome's built-in storage APIs (<code>chrome.storage.sync</code> and <code>chrome.storage.local</code>) to save:</p>
+      <ul>
+        <li><strong>Your background preference</strong> — which theme is currently active (e.g. "cyber", "fantasy", "unicorns", or "custom")</li>
+        <li><strong>Custom uploaded images</strong> — if you upload your own background image, it is stored locally on your device using <code>chrome.storage.local</code></li>
+      </ul>
+      <p>This data never leaves your browser and is not accessible to any third party.</p>
+
+      <h2>Permissions</h2>
+      <p>The extension requests the following permissions:</p>
+      <ul>
+        <li><strong>activeTab</strong> — to inject the background styling into the current AI chat page</li>
+        <li><strong>storage</strong> — to save your background preference locally</li>
+        <li><strong>Host permissions</strong> (chatgpt.com, claude.ai, gemini.google.com) — to apply the background on these specific sites only</li>
+      </ul>
+
+      <h2>Third-Party Services</h2>
+      <p>My Chat Faces does not use any third-party services, APIs, or SDKs.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>If this policy is updated, the changes will be posted on this page with a revised date.</p>
+
+      <h2>Contact</h2>
+      <p>If you have any questions about this privacy policy, you can reach out via the <a href="https://github.com/lech-kalinowski/my-chat-faces/issues">GitHub Issues</a> page.</p>
+    </div>
+  </body>
+</html>
