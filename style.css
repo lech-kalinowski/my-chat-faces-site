@@ -204,12 +204,26 @@ section {
 .sites-row { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
 
 .site-badge {
+  display: inline-flex; align-items: center; gap: 12px;
   background: var(--card); border: 2px solid rgba(0, 0, 0, 0.04);
-  border-radius: 14px; padding: 18px 40px; font-size: 1.1rem; font-weight: 700;
+  border-radius: 14px; padding: 14px 24px; min-width: 170px;
+  font-size: 1.1rem; font-weight: 700;
   letter-spacing: 0.3px; transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 .site-badge:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(108, 99, 255, 0.1); }
+
+.site-logo {
+  width: 34px; height: 34px; border-radius: 10px;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 0.8rem; font-weight: 800; color: #fff;
+  letter-spacing: 0.4px;
+}
+
+.site-chatgpt .site-logo { background: linear-gradient(135deg, #10a37f, #0e7e65); }
+.site-claude .site-logo { background: linear-gradient(135deg, #c86e46, #b65f3c); }
+.site-gemini .site-logo { background: linear-gradient(135deg, #5b8bff, #8e6dff); }
+.site-grok .site-logo { background: linear-gradient(135deg, #151515, #393939); }
 
 /* Install Steps */
 .install {
