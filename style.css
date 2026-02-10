@@ -220,6 +220,13 @@ section {
   letter-spacing: 0.4px;
 }
 
+.site-logo img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  display: block;
+}
+
 .site-chatgpt .site-logo { background: linear-gradient(135deg, #10a37f, #0e7e65); }
 .site-claude .site-logo { background: linear-gradient(135deg, #c86e46, #b65f3c); }
 .site-gemini .site-logo { background: linear-gradient(135deg, #5b8bff, #8e6dff); }
