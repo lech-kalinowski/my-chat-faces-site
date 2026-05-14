@@ -36,10 +36,10 @@
     <div class="container">
       <a href="index.html" class="back">&larr; Back to My Chat Faces</a>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: February 9, 2026</p>
+      <p class="updated">Last updated: May 14, 2026</p>
 
       <h2>Overview</h2>
-      <p>My Chat Faces is a Chrome extension that lets you set custom background images on AI chat websites (ChatGPT, Claude, and Gemini). Your privacy is important to us — the extension is designed to work entirely offline with no data collection.</p>
+      <p>My Chat Faces is a Chrome extension that lets you customize AI chat websites with image backgrounds, solid color surfaces, accessible text sizing, contrast presets, bubble colors, opacity controls, and background brightness on ChatGPT, Claude, Gemini, and Grok. Your privacy is important to us — the extension is designed to work entirely offline with no data collection.</p>
 
       <h2>Data Collection</h2>
       <p>My Chat Faces does <strong>not</strong> collect, store, or transmit any personal data. Specifically:</p>
@@ -54,17 +54,17 @@
       <h2>Local Storage</h2>
       <p>The extension uses Chrome's built-in storage APIs (<code>chrome.storage.sync</code> and <code>chrome.storage.local</code>) to save:</p>
       <ul>
-        <li><strong>Your background preference</strong> — which theme is currently active (e.g. "cyber", "fantasy", "unicorns", or "custom")</li>
+        <li><strong>Your background preference</strong> — which background is currently active (e.g. "cyber", "fantasy", "unicorns", "custom", or a solid color mode)</li>
         <li><strong>Custom uploaded images</strong> — if you upload your own background image, it is stored locally on your device using <code>chrome.storage.local</code></li>
+        <li><strong>Chat appearance settings</strong> — your selected bubble colors, text color, accessibility preset, message text size, interface text scale, opacity, brightness, and solid background color settings are stored locally so they persist between sessions</li>
       </ul>
       <p>This data never leaves your browser and is not accessible to any third party.</p>
 
       <h2>Permissions</h2>
       <p>The extension requests the following permissions:</p>
       <ul>
-        <li><strong>activeTab</strong> — to inject the background styling into the current AI chat page</li>
-        <li><strong>storage</strong> — to save your background preference locally</li>
-        <li><strong>Host permissions</strong> (chatgpt.com, claude.ai, gemini.google.com) — to apply the background on these specific sites only</li>
+        <li><strong>storage</strong> — to save your background preference and appearance settings locally</li>
+        <li><strong>Site access</strong> for <code>chatgpt.com</code>, <code>chat.openai.com</code>, <code>claude.ai</code>, <code>gemini.google.com</code>, <code>grok.com</code>, and <code>x.com/i/grok</code> so the extension can apply your background and chat styling on those pages</li>
       </ul>
 
       <h2>Third-Party Services</h2>
