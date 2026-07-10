@@ -696,3 +696,27 @@ footer a { color: var(--accent); font-weight: 600; }
   .install { padding: 48px 28px; }
   .sponsor { padding: 48px 24px; }
 }
+
+@media (max-width: 500px) {
+  section { padding-left: 18px; padding-right: 18px; }
+  .hero { gap: 36px; padding-top: 48px; }
+  .hero-content, .hero-image { min-width: 0; width: 100%; }
+  .hero-logo { width: 82px; height: 82px; }
+  .hero-badges { gap: 8px; }
+  .hero-badge { padding: 6px 10px; font-size: 10px; letter-spacing: 1px; }
+  .hero h1 { font-size: 2.2rem; }
+  .hero-tagline { font-size: 1.08rem; }
+  .hero-actions { display: grid; grid-template-columns: 1fr; width: 100%; }
+  .hero-actions .btn { width: 100%; }
+  .release-note { width: 100%; padding: 16px; }
+  .release-note-list li { font-size: 0.88rem; overflow-wrap: anywhere; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
