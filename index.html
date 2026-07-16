@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Chat Faces — Solid Backgrounds, Low Vision Presets &amp; Readable AI Chats</title>
+    <title>My Chat Faces — Readability Guard for Accessible AI Chats</title>
     <meta
       name="description"
-      content="Customize ChatGPT, Claude, Gemini, and Grok chats, Canvas, Artifacts, markdown files, and preview windows with accessible colors and text sizing."
+      content="Make ChatGPT, Claude, Gemini, and Grok personal without sacrificing readability. Readability Guard protects text and generated answers at 4.5:1 contrast."
     />
     <link rel="icon" type="image/png" href="icon.png" />
     <link rel="stylesheet" href="style.css" />
@@ -18,17 +18,17 @@
         <img src="logo.png" alt="My Chat Faces logo" class="hero-logo" />
         <div class="hero-badges">
           <div class="hero-badge">Chrome Extension</div>
-          <div class="hero-badge hero-badge-release">New in v1.3.7</div>
+          <div class="hero-badge hero-badge-release">New in v1.3.8</div>
         </div>
         <h1>My Chat Faces</h1>
         <p class="hero-tagline">
-          Accessible backgrounds, solid colors, and readable chat styling for
-          ChatGPT, Claude, Gemini &amp; Grok.
+          Personal AI chats where clear text and readable answers always come
+          first.
         </p>
         <p class="hero-sub">
           Start with a built-in theme, a solid paper-like surface, or your own
-          image, then tune bubble colors, text size, contrast, opacity, and
-          background brightness so every chat stays readable.
+          image, then tune bubble colors, text size, opacity, and brightness.
+          Readability Guard protects every result automatically.
         </p>
         <div class="hero-actions">
           <a
@@ -39,12 +39,12 @@
           <a href="#install" class="btn btn-secondary">How to Install</a>
         </div>
         <div class="release-note">
-          <span class="release-note-label">Release 1.3.7</span>
+          <span class="release-note-label">Release 1.3.8</span>
           <ul class="release-note-list">
-            <li>Markdown and file-preview windows now inherit your theme</li>
-            <li>ChatGPT Canvas and shared dialogs are covered</li>
-            <li>Claude Artifacts, Gemini Canvas, and Grok previews are covered</li>
-            <li>Document text sizing works without flattening code colors</li>
+            <li>Always-on Readability Guard targets at least 4.5:1 contrast</li>
+            <li>Your messages and generated answers are protected separately</li>
+            <li>Safe custom colors stay exactly as you chose them</li>
+            <li>Unsafe text or opacity is corrected only where needed</li>
           </ul>
         </div>
       </div>
@@ -117,10 +117,10 @@
         </div>
         <div class="feature-card">
           <div class="feature-icon">&#128065;</div>
-          <h3>Accessible Text &amp; Contrast</h3>
+          <h3>Always-on Readability Guard</h3>
           <p>
-            Increase message text size, scale interface text, and switch to
-            higher-contrast presets when readability matters most.
+            Every style is checked against a 4.5:1 contrast target across chat
+            text, generated answers, sidebars, inputs, and document windows.
           </p>
         </div>
         <div class="feature-card">
@@ -145,24 +145,25 @@
     <section class="control-studio" id="studio">
       <div class="studio-copy">
         <span class="studio-kicker">Accessibility Studio</span>
-        <h2>Pick a Background First, Then Preview Presets Before You Apply</h2>
+        <h2>Customize Freely. Readability Stays Protected.</h2>
         <p class="studio-lead">
-          Version 1.3.7 carries your visual settings beyond the conversation.
-          Markdown files, Canvas, Artifacts, dialogs, and preview panes now use
-          the same colors, opacity, and readability controls as your chat.
+          Version 1.3.8 evaluates each translucent surface before it reaches
+          your chat. It keeps your preferred color whenever it is safe, raises
+          only the opacity that needs protection, and changes text to black or
+          white only as a last resort.
         </p>
         <div class="studio-points">
           <div class="studio-point">
-            <strong>Low Vision is front and center</strong>
-            <p>People with low vision can jump straight into a stronger, easier-to-read preset without hunting through advanced settings.</p>
+            <strong>Generated answers remain clear</strong>
+            <p>Assistant responses, nested markdown, headings, lists, links, and code blocks inherit a protected readable color instead of a site default.</p>
           </div>
           <div class="studio-point">
-            <strong>One theme across every working surface</strong>
-            <p>Document and preview windows inherit your chosen surface and text colors instead of falling back to an unrelated white or dark panel.</p>
+            <strong>Protection is surface by surface</strong>
+            <p>Your messages, AI output, composer, sidebar, Canvas, Artifacts, markdown files, and previews are evaluated independently.</p>
           </div>
           <div class="studio-point">
-            <strong>Readable markdown, preserved code</strong>
-            <p>Text size and line spacing carry into document panes while syntax highlighting and native controls keep their useful visual distinctions.</p>
+            <strong>No hidden compromise</strong>
+            <p>The popup preview reports when Readability Guard protects opacity or corrects an unsafe text color before you click Apply Style.</p>
           </div>
         </div>
       </div>
@@ -173,29 +174,29 @@
             <span class="studio-dot studio-dot-pink"></span>
             <span class="studio-dot studio-dot-gold"></span>
             <span class="studio-dot studio-dot-teal"></span>
-            <span class="studio-window-title">My Chat Faces v1.3.7</span>
+            <span class="studio-window-title">My Chat Faces v1.3.8</span>
           </div>
 
           <div class="studio-preview">
             <div class="studio-sidebar">
-              <div class="studio-sidebar-item studio-sidebar-item-active">Low Vision</div>
+              <div class="studio-sidebar-item studio-sidebar-item-active">Readability Guard</div>
+              <div class="studio-sidebar-item">Generated answers</div>
               <div class="studio-sidebar-item">Paper preset</div>
-              <div class="studio-sidebar-item">Contrast tuning</div>
-              <div class="studio-sidebar-item">Chat preview</div>
+              <div class="studio-sidebar-item">Full personalization</div>
             </div>
 
             <div class="studio-chat">
-              <div class="studio-bubble studio-bubble-assistant">Can we make this easier to read without losing control of the look?</div>
-              <div class="studio-bubble studio-bubble-user">Yes. Try Low Vision or Paper for an instant reading mode, then fine-tune anything else.</div>
-              <div class="studio-input">Apply Style</div>
+              <div class="studio-bubble studio-bubble-user">Can I use my own colors and still keep every answer readable?</div>
+              <div class="studio-bubble studio-bubble-assistant">Yes. Safe colors stay yours. Unsafe combinations are corrected only where needed.</div>
+              <div class="studio-input">Readability Guard: protected</div>
             </div>
           </div>
 
           <div class="studio-controls">
             <div class="studio-control">
               <div class="studio-control-head">
-                <span>Message text size</span>
-                <strong>24px</strong>
+                <span>Minimum text contrast</span>
+                <strong>4.5:1</strong>
               </div>
               <div class="studio-range">
                 <span class="studio-range-fill" style="width: 78%;"></span>
@@ -204,8 +205,8 @@
 
             <div class="studio-control">
               <div class="studio-control-head">
-                <span>Interface text scale</span>
-                <strong>125%</strong>
+                <span>Preferred surface opacity</span>
+                <strong>55%</strong>
               </div>
               <div class="studio-range studio-range-brightness">
                 <span class="studio-range-fill" style="width: 82%;"></span>
@@ -213,7 +214,7 @@
             </div>
 
             <div class="studio-swatches">
-              <span class="studio-swatches-label">Preset and surface picks</span>
+              <span class="studio-swatches-label">Preferred colors, protected per surface</span>
               <div class="studio-swatch-row">
                 <span class="studio-swatch" style="--swatch: #0f172a;"></span>
                 <span class="studio-swatch" style="--swatch: #f8f6f1;"></span>
@@ -223,7 +224,7 @@
               </div>
             </div>
 
-            <div class="studio-apply">Apply Style</div>
+            <div class="studio-apply">Readability Guard Active</div>
           </div>
         </div>
       </div>
